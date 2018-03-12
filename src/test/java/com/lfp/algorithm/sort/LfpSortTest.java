@@ -67,5 +67,53 @@ public class LfpSortTest {
         Assert.assertEquals("排序结果不同", result, print(ret));
     }
 
+    @Test
+    public void testShellSort(){
+        LfpSort sort = new ShellSort();
+        String[] ret = sort.sort(array);
+        Assert.assertEquals("排序结果不同", result, print(ret));
+    }
+
+    @Test
+    public void testMergeSort(){
+        LfpSort sort = new MergeSort();
+        String[] ret = sort.sort(array);
+        Assert.assertEquals("排序结果不同", result, print(ret));
+    }
+
+    @Test
+    public void testQuickSort(){
+        LfpSort sort = new QuickSort();
+        String[] ret = sort.sort(array);
+        Assert.assertEquals("排序结果不同", result, print(ret));
+    }
+
+    @Test
+    public void testHeapSort(){
+        LfpSort sort = new HeapSort();
+        String[] ret = sort.sort(array);
+        Assert.assertEquals("排序结果不同", result, print(ret));
+    }
+
+    @Test
+    public void testCountSort(){
+        LfpSort sort = new CountSort();
+        String[] ret = sort.sort(array);
+        Assert.assertEquals("排序结果不同", result, print(ret));
+    }
+
+    @Test
+    public void testBucketSort(){
+        LfpSort sort = new BucketSort();
+        String[] ret = sort.sort(array);
+        Assert.assertEquals("排序结果不同", result, print(ret));
+    }
+
+    @Test
+    public void testRadixSort(){
+        LfpSort sort = new RadixSort();
+        String[] ret = sort.sort(array);
+        Assert.assertEquals("排序结果不同", result, print(ret));
+    }
 
 }

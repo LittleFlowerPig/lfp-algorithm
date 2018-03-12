@@ -3,7 +3,8 @@ package com.lfp.algorithm.sort;
 /**
  * Project: lfp-algorithm
  * Title: 冒泡排序
- * Description: 每次将最大的沉淀到最下面
+ * Description: 遍历并两两比较，小的冒到上面，大的沉到后面。
+ *              这样，每次遍历后，都会将最大的沉淀到最下面，再遍历之前的序列。
  * Date: 2018-3-9
  * Copyright: Copyright (c) 2018
  * Company: LFP

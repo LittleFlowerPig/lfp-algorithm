@@ -3,7 +3,7 @@ package com.lfp.algorithm.sort;
 /**
  * Project: lfp-algorithm
  * Title: 插入排序
- * Description: 依次选择并插入在正确的位置
+ * Description: 遍历序列，依次选择并插入在正确的位置上，类比于摸扑克。
  * Date: 2018-3-9
  * Copyright: Copyright (c) 2018
  * Company: LFP

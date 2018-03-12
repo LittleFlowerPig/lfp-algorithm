@@ -3,7 +3,7 @@ package com.lfp.algorithm.sort;
 /**
  * Project: lfp-algorithm
  * Title: 选择排序
- * Description: 每次选择最小的放在前面
+ * Description: 与冒泡相反，遍历序列，选择最小的放在前面，再重复遍历后面的序列。
  * Date: 2018-3-9
  * Copyright: Copyright (c) 2018
  * Company: LFP
